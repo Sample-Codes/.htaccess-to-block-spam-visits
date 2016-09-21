@@ -1,0 +1,4 @@
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} [write here the domain you want to ban] [NC,OR]
+RewriteCond %{HTTP_REFERER} [write here the domain you want to ban] [NC]
+RewriteRule .* - [F]
